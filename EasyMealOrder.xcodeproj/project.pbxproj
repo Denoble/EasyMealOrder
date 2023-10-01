@@ -18,6 +18,10 @@
 		2F8389052AC99ADA0055452D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8389042AC99ADA0055452D /* CustomView.swift */; };
 		2F8389072AC99B0D0055452D /* NetworkServices.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8389062AC99B0D0055452D /* NetworkServices.swift */; };
 		2F8389092AC99B340055452D /* CoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8389082AC99B340055452D /* CoreData.swift */; };
+		2F8389162AC9AD090055452D /* menu.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F8389152AC9AD090055452D /* menu.json */; };
+		2F83891D2AC9ADB00055452D /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83891C2AC9ADB00055452D /* Menu.swift */; };
+		2F83891F2AC9AE110055452D /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F83891E2AC9AE110055452D /* Helper.swift */; };
+		2F8389212AC9AEF80055452D /* Order.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8389202AC9AEF80055452D /* Order.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +56,10 @@
 		2F8389042AC99ADA0055452D /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		2F8389062AC99B0D0055452D /* NetworkServices.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkServices.swift; sourceTree = "<group>"; };
 		2F8389082AC99B340055452D /* CoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreData.swift; sourceTree = "<group>"; };
+		2F8389152AC9AD090055452D /* menu.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = menu.json; path = ../../../../../../Downloads/idine/menu.json; sourceTree = "<group>"; };
+		2F83891C2AC9ADB00055452D /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		2F83891E2AC9AE110055452D /* Helper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		2F8389202AC9AEF80055452D /* Order.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Order.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,8 @@
 		2F8388CC2AC9957C0055452D /* EasyMealOrder */ = {
 			isa = PBXGroup;
 			children = (
+				2F8389172AC9AD2F0055452D /* Model */,
+				2F8389122AC9ACD60055452D /* Util */,
 				2F8389002AC99A570055452D /* SwiftUIControl */,
 				2F8388FF2AC99A4B0055452D /* ViewModel */,
 				2F8388F72AC998650055452D /* Repository */,
@@ -185,6 +195,24 @@
 				2F8389042AC99ADA0055452D /* CustomView.swift */,
 			);
 			path = CustomControl;
+			sourceTree = "<group>";
+		};
+		2F8389122AC9ACD60055452D /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				2F8389152AC9AD090055452D /* menu.json */,
+				2F83891E2AC9AE110055452D /* Helper.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		2F8389172AC9AD2F0055452D /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2F83891C2AC9ADB00055452D /* Menu.swift */,
+				2F8389202AC9AEF80055452D /* Order.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -291,6 +319,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2F8389162AC9AD090055452D /* menu.json in Resources */,
 				2F8388D52AC9957E0055452D /* Preview Assets.xcassets in Resources */,
 				2F8388D22AC9957E0055452D /* Assets.xcassets in Resources */,
 			);
@@ -318,11 +347,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				2F8389072AC99B0D0055452D /* NetworkServices.swift in Sources */,
+				2F83891D2AC9ADB00055452D /* Menu.swift in Sources */,
 				2F8388D02AC9957C0055452D /* ContentView.swift in Sources */,
+				2F8389212AC9AEF80055452D /* Order.swift in Sources */,
 				2F8389052AC99ADA0055452D /* CustomView.swift in Sources */,
 				2F8389032AC99AAE0055452D /* ViewModel.swift in Sources */,
 				2F8389092AC99B340055452D /* CoreData.swift in Sources */,
 				2F8388CE2AC9957C0055452D /* EasyMealOrderApp.swift in Sources */,
+				2F83891F2AC9AE110055452D /* Helper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
