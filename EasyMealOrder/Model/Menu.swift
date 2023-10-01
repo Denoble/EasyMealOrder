@@ -7,13 +7,13 @@
 
 import Foundation
 
-struct MenuSection: Codable {
+struct MenuSection: Decodable {
     var id: UUID
     var name: String
     var items: [MenuItem]
 }
 
-struct MenuItem: Codable, Hashable {
+struct MenuItem: Decodable, Hashable {
     var id: UUID
     var name: String
     var photoCredit: String
