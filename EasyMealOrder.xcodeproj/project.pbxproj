@@ -1,0 +1,593 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F8388CE2AC9957C0055452D /* EasyMealOrderApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8388CD2AC9957C0055452D /* EasyMealOrderApp.swift */; };
+		2F8388D02AC9957C0055452D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8388CF2AC9957C0055452D /* ContentView.swift */; };
+		2F8388D22AC9957E0055452D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8388D12AC9957E0055452D /* Assets.xcassets */; };
+		2F8388D52AC9957E0055452D /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F8388D42AC9957E0055452D /* Preview Assets.xcassets */; };
+		2F8388DF2AC9957E0055452D /* EasyMealOrderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8388DE2AC9957E0055452D /* EasyMealOrderTests.swift */; };
+		2F8388E92AC9957E0055452D /* EasyMealOrderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8388E82AC9957E0055452D /* EasyMealOrderUITests.swift */; };
+		2F8388EB2AC9957E0055452D /* EasyMealOrderUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8388EA2AC9957E0055452D /* EasyMealOrderUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F8388DB2AC9957E0055452D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8388C22AC9957C0055452D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8388C92AC9957C0055452D;
+			remoteInfo = EasyMealOrder;
+		};
+		2F8388E52AC9957E0055452D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F8388C22AC9957C0055452D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F8388C92AC9957C0055452D;
+			remoteInfo = EasyMealOrder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2F8388CA2AC9957C0055452D /* EasyMealOrder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EasyMealOrder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8388CD2AC9957C0055452D /* EasyMealOrderApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMealOrderApp.swift; sourceTree = "<group>"; };
+		2F8388CF2AC9957C0055452D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F8388D12AC9957E0055452D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F8388D42AC9957E0055452D /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F8388DA2AC9957E0055452D /* EasyMealOrderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMealOrderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8388DE2AC9957E0055452D /* EasyMealOrderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMealOrderTests.swift; sourceTree = "<group>"; };
+		2F8388E42AC9957E0055452D /* EasyMealOrderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EasyMealOrderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F8388E82AC9957E0055452D /* EasyMealOrderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMealOrderUITests.swift; sourceTree = "<group>"; };
+		2F8388EA2AC9957E0055452D /* EasyMealOrderUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EasyMealOrderUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F8388C72AC9957C0055452D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8388D72AC9957E0055452D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8388E12AC9957E0055452D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F8388C12AC9957C0055452D = {
+			isa = PBXGroup;
+			children = (
+				2F8388CC2AC9957C0055452D /* EasyMealOrder */,
+				2F8388DD2AC9957E0055452D /* EasyMealOrderTests */,
+				2F8388E72AC9957E0055452D /* EasyMealOrderUITests */,
+				2F8388CB2AC9957C0055452D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F8388CB2AC9957C0055452D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F8388CA2AC9957C0055452D /* EasyMealOrder.app */,
+				2F8388DA2AC9957E0055452D /* EasyMealOrderTests.xctest */,
+				2F8388E42AC9957E0055452D /* EasyMealOrderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F8388CC2AC9957C0055452D /* EasyMealOrder */ = {
+			isa = PBXGroup;
+			children = (
+				2F8388CD2AC9957C0055452D /* EasyMealOrderApp.swift */,
+				2F8388CF2AC9957C0055452D /* ContentView.swift */,
+				2F8388D12AC9957E0055452D /* Assets.xcassets */,
+				2F8388D32AC9957E0055452D /* Preview Content */,
+			);
+			path = EasyMealOrder;
+			sourceTree = "<group>";
+		};
+		2F8388D32AC9957E0055452D /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2F8388D42AC9957E0055452D /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2F8388DD2AC9957E0055452D /* EasyMealOrderTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8388DE2AC9957E0055452D /* EasyMealOrderTests.swift */,
+			);
+			path = EasyMealOrderTests;
+			sourceTree = "<group>";
+		};
+		2F8388E72AC9957E0055452D /* EasyMealOrderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F8388E82AC9957E0055452D /* EasyMealOrderUITests.swift */,
+				2F8388EA2AC9957E0055452D /* EasyMealOrderUITestsLaunchTests.swift */,
+			);
+			path = EasyMealOrderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F8388C92AC9957C0055452D /* EasyMealOrder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8388EE2AC9957E0055452D /* Build configuration list for PBXNativeTarget "EasyMealOrder" */;
+			buildPhases = (
+				2F8388C62AC9957C0055452D /* Sources */,
+				2F8388C72AC9957C0055452D /* Frameworks */,
+				2F8388C82AC9957C0055452D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EasyMealOrder;
+			productName = EasyMealOrder;
+			productReference = 2F8388CA2AC9957C0055452D /* EasyMealOrder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F8388D92AC9957E0055452D /* EasyMealOrderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8388F12AC9957E0055452D /* Build configuration list for PBXNativeTarget "EasyMealOrderTests" */;
+			buildPhases = (
+				2F8388D62AC9957E0055452D /* Sources */,
+				2F8388D72AC9957E0055452D /* Frameworks */,
+				2F8388D82AC9957E0055452D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F8388DC2AC9957E0055452D /* PBXTargetDependency */,
+			);
+			name = EasyMealOrderTests;
+			productName = EasyMealOrderTests;
+			productReference = 2F8388DA2AC9957E0055452D /* EasyMealOrderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F8388E32AC9957E0055452D /* EasyMealOrderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F8388F42AC9957E0055452D /* Build configuration list for PBXNativeTarget "EasyMealOrderUITests" */;
+			buildPhases = (
+				2F8388E02AC9957E0055452D /* Sources */,
+				2F8388E12AC9957E0055452D /* Frameworks */,
+				2F8388E22AC9957E0055452D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F8388E62AC9957E0055452D /* PBXTargetDependency */,
+			);
+			name = EasyMealOrderUITests;
+			productName = EasyMealOrderUITests;
+			productReference = 2F8388E42AC9957E0055452D /* EasyMealOrderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F8388C22AC9957C0055452D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2F8388C92AC9957C0055452D = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					2F8388D92AC9957E0055452D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F8388C92AC9957C0055452D;
+					};
+					2F8388E32AC9957E0055452D = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 2F8388C92AC9957C0055452D;
+					};
+				};
+			};
+			buildConfigurationList = 2F8388C52AC9957C0055452D /* Build configuration list for PBXProject "EasyMealOrder" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F8388C12AC9957C0055452D;
+			productRefGroup = 2F8388CB2AC9957C0055452D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F8388C92AC9957C0055452D /* EasyMealOrder */,
+				2F8388D92AC9957E0055452D /* EasyMealOrderTests */,
+				2F8388E32AC9957E0055452D /* EasyMealOrderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F8388C82AC9957C0055452D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8388D52AC9957E0055452D /* Preview Assets.xcassets in Resources */,
+				2F8388D22AC9957E0055452D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8388D82AC9957E0055452D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8388E22AC9957E0055452D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F8388C62AC9957C0055452D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8388D02AC9957C0055452D /* ContentView.swift in Sources */,
+				2F8388CE2AC9957C0055452D /* EasyMealOrderApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8388D62AC9957E0055452D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8388DF2AC9957E0055452D /* EasyMealOrderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F8388E02AC9957E0055452D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F8388EB2AC9957E0055452D /* EasyMealOrderUITestsLaunchTests.swift in Sources */,
+				2F8388E92AC9957E0055452D /* EasyMealOrderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F8388DC2AC9957E0055452D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8388C92AC9957C0055452D /* EasyMealOrder */;
+			targetProxy = 2F8388DB2AC9957E0055452D /* PBXContainerItemProxy */;
+		};
+		2F8388E62AC9957E0055452D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F8388C92AC9957C0055452D /* EasyMealOrder */;
+			targetProxy = 2F8388E52AC9957E0055452D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2F8388EC2AC9957E0055452D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F8388ED2AC9957E0055452D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F8388EF2AC9957E0055452D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyMealOrder/Preview Content\"";
+				DEVELOPMENT_TEAM = U7AJYCA73L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gevcorst.EasyMealOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F8388F02AC9957E0055452D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"EasyMealOrder/Preview Content\"";
+				DEVELOPMENT_TEAM = U7AJYCA73L;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gevcorst.EasyMealOrder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F8388F22AC9957E0055452D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7AJYCA73L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gevcorst.EasyMealOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMealOrder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyMealOrder";
+			};
+			name = Debug;
+		};
+		2F8388F32AC9957E0055452D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7AJYCA73L;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gevcorst.EasyMealOrderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/EasyMealOrder.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/EasyMealOrder";
+			};
+			name = Release;
+		};
+		2F8388F52AC9957E0055452D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7AJYCA73L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gevcorst.EasyMealOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyMealOrder;
+			};
+			name = Debug;
+		};
+		2F8388F62AC9957E0055452D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U7AJYCA73L;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Gevcorst.EasyMealOrderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = EasyMealOrder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F8388C52AC9957C0055452D /* Build configuration list for PBXProject "EasyMealOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8388EC2AC9957E0055452D /* Debug */,
+				2F8388ED2AC9957E0055452D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8388EE2AC9957E0055452D /* Build configuration list for PBXNativeTarget "EasyMealOrder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8388EF2AC9957E0055452D /* Debug */,
+				2F8388F02AC9957E0055452D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8388F12AC9957E0055452D /* Build configuration list for PBXNativeTarget "EasyMealOrderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8388F22AC9957E0055452D /* Debug */,
+				2F8388F32AC9957E0055452D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F8388F42AC9957E0055452D /* Build configuration list for PBXNativeTarget "EasyMealOrderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F8388F52AC9957E0055452D /* Debug */,
+				2F8388F62AC9957E0055452D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F8388C22AC9957C0055452D /* Project object */;
+}
